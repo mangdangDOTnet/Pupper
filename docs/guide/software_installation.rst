@@ -29,7 +29,7 @@ Use `this version <https://slack-files.com/T0RAWRCGY-FQG7WTSBH-eb9549ed22>`_ so 
 3. Use `etcher <https://www.balena.io/etcher/>`_ to flash the card. 
 ##########################################################################################
 
-* If you are using the recommended etcher, this is the start-up menu. Select 2019-09-26-raspbian-buster-lite.img (file inside zip )and the SD card. 
+* If you are using the recommended etcher, this is the start-up menu. Select 2020-02-13-raspbian-buster-lite.img (file inside zip )and the SD card. 
 
 .. image:: ../_static/flash1.JPG
     :align: center
@@ -158,7 +158,7 @@ Edit **/etc/wpa_supplicant/wpa_supplicant.conf** as documented in `this link <ht
 * If the IP is still 10.0.0.10 you will be prompted to change it. The raspberry Pi IP should not be the same as your computer's IP, 10.0.0.Y. 
 * If the hostname is still raspberry you will be prompted to change it.  
 * You will be asked to enter the current time and date. You can skip to the next step if you'd like to automatically set the time and date. 
-* Run ``sudo ./time_sync.sh`` to automatically set the time and date.
+* Run ``sudo ./time_sync.sh`` to automatically set the time and date. If you can not access google.com, please modify the website address you can access.
 
 
 What the RPI-Setup repo does
@@ -222,14 +222,19 @@ and check the wlan0 portion to check if you have an IP address and other debuggi
 
 ::
 
-	git clone https://github.com/stanfordroboticsclub/StanfordQuadruped.git
+	git clone -b pupper-mini-lite https://github.com/mangdangroboticsclub/QuadrupedRobot.git
 
 4. Install requirements (on the Pi)
 #####################################
-
+At first, use "sudo raspi-config" to enable I2C interface, and then run the following commands.
+.. image:: ../_static/enableI2C_1.JPG
+    :align: center
+    
+.. image:: ../_static/enableI2C_2.JPG
+    :align: center    
 ::
 
-	cd StanfordQuadruped
+	cd QuadrupedRobot
 	sudo bash install.sh
 
 5. Power-cycle the robot
