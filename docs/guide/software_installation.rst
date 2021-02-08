@@ -131,6 +131,7 @@ This is the menu that will appear. Go to Network Options, then Wi-Fi and enter y
     :align: center
 
 Attention: Please also set your Localisation Options like below pictures, otherwise you can not see your WiFi IP information.
+
 .. image:: ../_static/raspconfig3.JPG
     :align: center
 
@@ -243,11 +244,22 @@ and check the wlan0 portion to check if you have an IP address and other debuggi
 4. Install requirements (on the Pi)
 #####################################
 At first, use "sudo raspi-config" to enable I2C interface, and then run the following commands.
-.. image:: ../_static/enableI2C_1.JPG
+
+.. image:: ../_static/enableI2C_1.jpg
     :align: center
     
-.. image:: ../_static/enableI2C_2.JPG
+.. image:: ../_static/enableI2C_2.jpg
     :align: center    
+
+.. image:: ../_static/enableI2C_3.jpg
+    :align: center
+    
+.. image:: ../_static/enableI2C_4.jpg
+    :align: center  
+
+.. image:: ../_static/enableI2C_4.jpg
+    :align: center  
+
 ::
 
 	cd QuadrupedRobot
