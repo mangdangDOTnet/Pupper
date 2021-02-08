@@ -147,6 +147,18 @@ Attention: Please also set your Localisation Options like below pictures, otherw
 .. image:: ../_static/raspconfig7.JPG
     :align: center
 
+You can run ifconfig command to check your WiFi IP address, append it to the end of sshd_config file, and then restart ssh service. Now you should can access Pi by SSH.
+
+.. image:: ../_static/WiFiSSH1.JPG
+    :align: center
+
+.. image:: ../_static/WiFiSSH2.JPG
+    :align: center
+
+.. image:: ../_static/WiFiSSH3.JPG
+    :align: center
+
+
 b. Wpa_supplicant method
 
 Edit **/etc/wpa_supplicant/wpa_supplicant.conf** as documented in `this link <https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md>`_ , see "Adding the network details to the Raspberry Pi". You can also see this `link <https://linux.die.net/man/5/wpa_supplicant.conf>`_. Thanks to pi-init2 magic that file can be edited before the pi is ever turned on from **/boot/appliance/etc/wpa_supplicant/wpa_supplicant.conf**
