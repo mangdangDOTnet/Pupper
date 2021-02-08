@@ -23,13 +23,13 @@ From your desktop / laptop:
 2. Download this version of Raspbian
 #################################################################
 
-Use `this version <https://slack-files.com/T0RAWRCGY-FQG7WTSBH-eb9549ed22>`_ so everyone is using the same version. Unzip and extract the file. 
+Use `this version <https://drive.google.com/file/d/1dBjgWEJNBan4NsPyrdhViQJymkSypeIp/view?usp=sharing>`_ so everyone is using the same version. Unzip and extract the file. 
 
 
 3. Use `etcher <https://www.balena.io/etcher/>`_ to flash the card. 
 ##########################################################################################
 
-* If you are using the recommended etcher, this is the start-up menu. Select 2020-02-13-raspbian-buster-lite.img (file inside zip )and the SD card. 
+* If you are using the recommended etcher, this is the start-up menu. Select 2020-02-13-raspbian-buster-lite.img (file inside zip )and the SD card. (Please do NOT use 2019-09-26-raspbian-buster-lite.img any more, otherwise your new Raspberry Pi 4 can not boot up.)
 
 .. image:: ../_static/flash1.JPG
     :align: center
@@ -128,6 +128,22 @@ This is the menu that will appear. Go to Network Options, then Wi-Fi and enter y
     :align: center
 
 .. image:: ../_static/raspconfig2.JPG
+    :align: center
+
+Attention: Please also set your Localisation Options like below pictures, otherwise you can not see your WiFi IP information.
+.. image:: ../_static/raspconfig3.JPG
+    :align: center
+
+.. image:: ../_static/raspconfig4.JPG
+    :align: center
+
+.. image:: ../_static/raspconfig5.JPG
+    :align: center
+
+.. image:: ../_static/raspconfig6.JPG
+    :align: center
+
+.. image:: ../_static/raspconfig7.JPG
     :align: center
 
 b. Wpa_supplicant method
