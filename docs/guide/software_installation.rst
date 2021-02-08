@@ -36,7 +36,7 @@ Use `this version <https://drive.google.com/file/d/1dBjgWEJNBan4NsPyrdhViQJymkSy
 
 *  Image of SD card being flashed. 
 
-.. image:: ../_static/flash2.JPG
+.. image:: ../_static/flash2.jpg
     :align: center
 
 *   Done!
