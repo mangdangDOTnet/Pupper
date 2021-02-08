@@ -1,4 +1,4 @@
-Welcome to Pupper's documentation!
+Welcome to Pupper Mini's documentation!
 ##################################
 
 About Pupper
