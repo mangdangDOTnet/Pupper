@@ -29,6 +29,8 @@ Use `this version <https://drive.google.com/file/d/1dBjgWEJNBan4NsPyrdhViQJymkSy
 3. Use `etcher <https://www.balena.io/etcher/>`_ to flash the card. 
 ##########################################################################################
 
+* For quick start, you can also download the  `pre-installed image <https://drive.google.com/file/d/10diNl8gr4a7QwbyxRh5y6xRhmdi9_itV/view?usp=sharing>`_ , flash it into the card, then skip all the following steps and start to calibarte the Pupper Mini.
+
 * If you are using the recommended etcher, this is the start-up menu. Select 2020-02-13-raspbian-buster-lite.img (file inside zip )and the SD card. (Please do NOT use 2019-09-26-raspbian-buster-lite.img any more, otherwise your new Raspberry Pi 4 can not boot up.)
 
 .. image:: ../_static/flash1.JPG
